@@ -5,32 +5,39 @@ import { Calendar, Clock, Trophy, Users } from 'lucide-react';
 
 const timelineEvents = [
   {
-    date: 'June 29, 2025',
-    title: 'Hackathon Starts',
-    description: 'The challenge begins. Time to build what deserves to exist.',
+    date: 'June 27, 2025',
+    title: 'Registeration Starts',
+    description: 'Application for the hackathon begins',
     icon: Users,
     color: 'neon-green'
   },
   {
-    date: 'July 2, 2025',
-    title: 'Submission Deadline',
-    description: 'Final deadline for all project submissions. No extensions.',
+    date: 'July 1, 2025',
+    title: 'Application Closes',
+    description: 'Final date for all application submissions. No extensions.',
     icon: Clock,
     color: 'blood-orange'
   },
   {
-    date: 'July 3–4, 2025',
-    title: 'Judging & Showcase',
-    description: 'Projects are evaluated and showcased to the community.',
+    date: 'July 2, 2025',
+    title: 'Hackathon Starts',
+    description: 'The challenge begins. Time to build what deserves to exist.',
     icon: Calendar,
     color: 'electric-purple'
   },
   {
-    date: 'July 5, 2025',
-    title: 'Winners Announced',
-    description: 'Celebrate the winners and the future they\'ve built.',
+    date: 'July 14, 2025',
+    title: 'Submission Deadline',
+    description: 'Final deadline for all project submissions. Extendable on large requests.',
     icon: Trophy,
     color: 'neon-amber'
+  },
+  {
+    date: 'July 26-28, 2025',
+    title: 'Winners Announced',
+    description: 'Celebrate the winners and the future they have built.',
+    icon: Calendar,
+    color: 'electric-purple'
   }
 ];
 
