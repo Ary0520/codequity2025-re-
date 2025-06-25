@@ -90,7 +90,7 @@ const Register = () => {
                 Join Codequity 2025
               </h3>
               <p className="text-gray-300 text-lg mb-8">
-                Registration is free and open to all builders. Whether you're a solo hacker or building with a team, 
+                Whether you're a solo hacker or building with a team, 
                 this is your chance to ship something that matters.
               </p>
               
@@ -100,7 +100,7 @@ const Register = () => {
                   className="bg-neon-green text-tech-black hover:bg-neon-green/90 font-semibold px-8 py-4 text-lg glow-effect animate-glow-pulse"
                   onClick={() => window.open('https://forms.gle/example', '_blank')}
                 >
-                  Register Now - It's Free!
+                  Register Now!
                 </Button>
                 
                 <Button
@@ -114,7 +114,7 @@ const Register = () => {
               </div>
 
               <p className="text-gray-400 text-sm mt-6">
-                Hackathon runs June 29 - July 2, 2025
+                Hackathon runs July 2 - July 14, 2025
               </p>
             </CardContent>
           </Card>
