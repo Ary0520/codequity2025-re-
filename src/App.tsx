@@ -12,11 +12,17 @@ import Submission from './components/Submission';
 import Terms from './components/Terms';
 import Register from './components/Register';
 import Footer from './components/Footer';
+import Nft from './components/nft';
+import NftExplore from './components/NftExplore';
+import { useState } from 'react';
+
 
 // Register GSAP plugins
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
+  const [showNftExplore, setShowNftExplore] = useState(false);
+
   useEffect(() => {
     // Smooth scrolling setup
     gsap.config({
@@ -24,8 +30,9 @@ function App() {
     });
 
     // Global scroll animations
-    gsap.utils.toArray('section').forEach((section: any) => {
-      gsap.fromTo(section, 
+    gsap.utils.toArray('section').forEach((section) => {
+      const el = section as HTMLElement;
+      gsap.fromTo(el, 
         {
           opacity: 0.8,
         },
@@ -33,7 +40,7 @@ function App() {
           opacity: 1,
           duration: 1,
           scrollTrigger: {
-            trigger: section,
+            trigger: el,
             start: 'top 80%',
             end: 'bottom 20%',
             scrub: true,
@@ -48,6 +55,10 @@ function App() {
     };
   }, []);
 
+  if (showNftExplore) {
+    return <NftExplore isExplorePage={true} onBackHome={() => setShowNftExplore(false)} />;
+  }
+
   return (
     <div className="min-h-screen bg-tech-black text-white overflow-x-hidden">
       <Navbar />
@@ -55,6 +66,7 @@ function App() {
       <Overview />
       <Tracks />
       <Timeline />
+      <Nft onExplore={() => setShowNftExplore(true)} />
       <Submission />
       <Terms />
       <Register />
