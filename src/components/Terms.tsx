@@ -51,7 +51,7 @@ const Terms = () => {
   className="bg-neon-green text-tech-black hover:bg-neon-green/90 font-semibold flex items-center justify-center glow-effect mx-auto"
   onClick={() =>
     window.open(
-      'https://drive.google.com/uc?export=view&id=1F8MeUsuAuLpp9OvY1PTNVG3TaP73fPAx',
+      'https://drive.google.com/file/d/18V6TshF5VYJc9RJrE_1CSBCKy3lWtf_-/view?usp=sharing',
       '_blank'
     )
   }
