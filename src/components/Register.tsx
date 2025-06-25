@@ -107,9 +107,9 @@ const Register = () => {
                   variant="outline"
                   size="lg"
                   className="border-gray-500 text-gray-200 hover:text-white hover:border-electric-purple px-8 py-4 text-lg"
-                  onClick={() => window.open('https://discord.gg/example', '_blank')}
+                  onClick={() => window.open('https://www.linkedin.com/company/codequitycommunity', '_blank')}
                 >
-                 Follow Our Insta Page
+                 Follow Our Linkedin Page
                 </Button>
               </div>
 
