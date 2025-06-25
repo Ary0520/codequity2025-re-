@@ -12,7 +12,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Twitter, href: 'https://x.com/CodeQuity', label: 'Twitter' },
     { icon: Linkedin, href: 'https://www.linkedin.com/company/codequitycommunity', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:codequitycommunity@gmail.com', label: 'Email' }
+    { icon: Mail, href: 'https://mail.google.com/mail/?view=cm&fs=1&to=codequitycommunity@gmail.com', label: 'Email' }
   ];
 
   return (
