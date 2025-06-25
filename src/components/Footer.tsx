@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ArrowUp, Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { ArrowUp, Twitter, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -10,10 +10,9 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/codequity-2025', label: 'GitHub' },
-    { icon: Twitter, href: 'https://twitter.com/codequity2025', label: 'Twitter' },
-    { icon: Linkedin, href: 'https://linkedin.com/company/codequity', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:hello@codequity2025.dev', label: 'Email' }
+    { icon: Twitter, href: 'https://x.com/CodeQuity', label: 'Twitter' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/codequitycommunity', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:codequitycommunity@gmail.com', label: 'Email' }
   ];
 
   return (
