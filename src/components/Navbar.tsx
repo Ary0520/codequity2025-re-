@@ -34,6 +34,10 @@ const Navbar = () => {
     setIsMobileMenuOpen(false);
   };
 
+  const handleRegisterClick = () => {
+    window.open('https://codequity-2025.devpost.com/?ref_feature=challenge&ref_medium=discover&_gl=1*rib4yo*_gcl_au*MTE3NTIxMjA5NS4xNzQ2Mjk2NDM1*_ga*MTM3MTU0NTIwNi4xNzM4MDc3OTAx*_ga_0YHJK3Y10M*czE3NTA5Mzg5NDIkbzI0JGcxJHQxNzUwOTQxMzQ3JGo0NSRsMCRoMA', '_blank');
+  };
+
   return (
     <motion.nav
       initial={{ y: -100 }}
@@ -81,7 +85,7 @@ const Navbar = () => {
               transition={{ delay: 0.3 }}
             >
               <Button 
-                onClick={() => scrollToSection('#register')}
+                onClick={handleRegisterClick}
                 className="bg-neon-green text-tech-black hover:bg-neon-green/90 font-semibold px-6 py-2 glow-effect"
               >
                 Register

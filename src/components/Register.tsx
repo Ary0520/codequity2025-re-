@@ -27,6 +27,10 @@ const stats = [
 ];
 
 const Register = () => {
+  const handleRegisterClick = () => {
+    window.open('https://codequity-2025.devpost.com/?ref_feature=challenge&ref_medium=discover&_gl=1*rib4yo*_gcl_au*MTE3NTIxMjA5NS4xNzQ2Mjk2NDM1*_ga*MTM3MTU0NTIwNi4xNzM4MDc3OTAx*_ga_0YHJK3Y10M*czE3NTA5Mzg5NDIkbzI0JGcxJHQxNzUwOTQxMzQ3JGo0NSRsMCRoMA', '_blank');
+  };
+
   return (
     <section id="register" className="py-20 lg:py-32 bg-tech-grey relative overflow-hidden">
       {/* Background elements */}
@@ -98,7 +102,7 @@ const Register = () => {
                 <Button
                   size="lg"
                   className="bg-neon-green text-tech-black hover:bg-neon-green/90 font-semibold px-8 py-4 text-lg glow-effect animate-glow-pulse"
-                  onClick={() => window.open('https://forms.gle/example', '_blank')}
+                  onClick={handleRegisterClick}
                 >
                   Register Now!
                 </Button>

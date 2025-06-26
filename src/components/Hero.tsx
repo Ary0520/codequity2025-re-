@@ -66,6 +66,10 @@ const Hero = () => {
     }
   };
 
+  const handleRegisterClick = () => {
+    window.open('https://codequity-2025.devpost.com/?ref_feature=challenge&ref_medium=discover&_gl=1*rib4yo*_gcl_au*MTE3NTIxMjA5NS4xNzQ2Mjk2NDM1*_ga*MTM3MTU0NTIwNi4xNzM4MDc3OTAx*_ga_0YHJK3Y10M*czE3NTA5Mzg5NDIkbzI0JGcxJHQxNzUwOTQxMzQ3JGo0NSRsMCRoMA', '_blank');
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden noise-bg">
       {/* Animated background */}
@@ -101,7 +105,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="hero-buttons flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
             <Button
-              onClick={() => scrollToSection('#register')}
+              onClick={handleRegisterClick}
               size="lg"
               className="bg-neon-green text-tech-black hover:bg-neon-green/90 font-semibold px-8 py-4 text-lg glow-effect group transition-all duration-300 hover:scale-105"
             >
