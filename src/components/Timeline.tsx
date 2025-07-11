@@ -26,7 +26,7 @@ const timelineEvents = [
     color: 'electric-purple'
   },
   {
-    date: 'July 14, 2025',
+    date: 'July 18, 2025',
     title: 'Submission Deadline',
     description: 'Final deadline for all project submissions. Extendable on large requests.',
     icon: Trophy,

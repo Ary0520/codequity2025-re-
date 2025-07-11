@@ -118,7 +118,7 @@ const Register = () => {
               </div>
 
               <p className="text-gray-400 text-sm mt-6">
-                Hackathon runs July 2 - July 14, 2025
+                Hackathon runs July 2 - July 18, 2025
               </p>
             </CardContent>
           </Card>
